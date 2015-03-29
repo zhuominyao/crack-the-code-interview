@@ -4,6 +4,73 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.9~svn20110310	//
-findFirstK	38.cpp	/^int findFirstK(int * array,int left,int right,int target,int length)$/;"	f	signature:(int * array,int left,int right,int target,int length)
-findLastK	38.cpp	/^int findLastK(int * array,int left,int right,int target,int length)$/;"	f	signature:(int * array,int left,int right,int target,int length)
-main	38.cpp	/^int main()$/;"	f	signature:()
+BinaryTreeNode	18.cpp	/^struct BinaryTreeNode$/;"	s	file:
+BinaryTreeNode::key	18.cpp	/^	int key;$/;"	m	struct:BinaryTreeNode	file:	access:public
+BinaryTreeNode::left	18.cpp	/^	BinaryTreeNode * left;$/;"	m	struct:BinaryTreeNode	file:	access:public
+BinaryTreeNode::right	18.cpp	/^	BinaryTreeNode * right;$/;"	m	struct:BinaryTreeNode	file:	access:public
+CQueue	7.cpp	/^class CQueue$/;"	c	file:
+CQueue::appendTail	7.cpp	/^		void appendTail(const T& node);$/;"	p	class:CQueue	file:	access:public	signature:(const T& node)
+CQueue::appendTail	7.cpp	/^void CQueue<T>::appendTail(const T& node)$/;"	f	class:CQueue	signature:(const T& node)
+CQueue::deleteHead	7.cpp	/^		T deleteHead();$/;"	p	class:CQueue	file:	access:public	signature:()
+CQueue::deleteHead	7.cpp	/^T CQueue<T>::deleteHead()$/;"	f	class:CQueue	signature:()
+CQueue::stack1	7.cpp	/^		stack<T> stack1;$/;"	m	class:CQueue	file:	access:private
+CQueue::stack2	7.cpp	/^		stack<T> stack2;$/;"	m	class:CQueue	file:	access:private
+ListNode	13.cpp	/^struct ListNode$/;"	s	file:
+ListNode	16.cpp	/^struct ListNode$/;"	s	file:
+ListNode	17.cpp	/^struct ListNode$/;"	s	file:
+ListNode	5.c	/^struct ListNode$/;"	s	file:
+ListNode::key	13.cpp	/^	int key;$/;"	m	struct:ListNode	file:	access:public
+ListNode::key	16.cpp	/^	int key;$/;"	m	struct:ListNode	file:	access:public
+ListNode::key	17.cpp	/^	int key;$/;"	m	struct:ListNode	file:	access:public
+ListNode::key	5.c	/^	int key;$/;"	m	struct:ListNode	file:	access:public
+ListNode::next	13.cpp	/^	ListNode * next;$/;"	m	struct:ListNode	file:	access:public
+ListNode::next	16.cpp	/^	ListNode * next;$/;"	m	struct:ListNode	file:	access:public
+ListNode::next	17.cpp	/^	ListNode * next;$/;"	m	struct:ListNode	file:	access:public
+ListNode::next	5.c	/^	ListNode * next;$/;"	m	struct:ListNode	file:	access:public
+appendTail	7.cpp	/^		void appendTail(const T& node);$/;"	p	class:CQueue	file:	access:public	signature:(const T& node)
+appendTail	7.cpp	/^void CQueue<T>::appendTail(const T& node)$/;"	f	class:CQueue	signature:(const T& node)
+count1	10.cpp	/^int count1(int n)$/;"	f	signature:(int n)
+deleteHead	7.cpp	/^		T deleteHead();$/;"	p	class:CQueue	file:	access:public	signature:()
+deleteHead	7.cpp	/^T CQueue<T>::deleteHead()$/;"	f	class:CQueue	signature:()
+deleteListNode	13.cpp	/^void deleteListNode(ListNode * head,ListNode * node)$/;"	f	signature:(ListNode * head,ListNode * node)
+equal	11.cpp	/^bool equal(double n1,double n2)$/;"	f	signature:(double n1,double n2)
+find	3.c	/^bool find(int * matrix,int rows,int columns,int number)$/;"	f	signature:(int * matrix,int rows,int columns,int number)
+findMinInRotatedArray	8.cpp	/^int findMinInRotatedArray(int * array,int length)$/;"	f	signature:(int * array,int length)
+increment	12.cpp	/^bool increment(char * number,int n)$/;"	f	signature:(char * number,int n)
+isSubStructure	18.cpp	/^bool isSubStructure(BinaryTreeNode * treeA,BinaryTreeNode * treeB)$/;"	f	signature:(BinaryTreeNode * treeA,BinaryTreeNode * treeB)
+key	13.cpp	/^	int key;$/;"	m	struct:ListNode	file:	access:public
+key	16.cpp	/^	int key;$/;"	m	struct:ListNode	file:	access:public
+key	17.cpp	/^	int key;$/;"	m	struct:ListNode	file:	access:public
+key	18.cpp	/^	int key;$/;"	m	struct:BinaryTreeNode	file:	access:public
+key	5.c	/^	int key;$/;"	m	struct:ListNode	file:	access:public
+left	18.cpp	/^	BinaryTreeNode * left;$/;"	m	struct:BinaryTreeNode	file:	access:public
+main	10.cpp	/^int main()$/;"	f	signature:()
+main	11.cpp	/^int main()$/;"	f	signature:()
+main	12.cpp	/^int main()$/;"	f	signature:()
+main	13.cpp	/^int main()$/;"	f	signature:()
+main	14.cpp	/^int main()$/;"	f	signature:()
+main	16.cpp	/^int main()$/;"	f	signature:()
+main	17.cpp	/^int main()$/;"	f	signature:()
+main	18.cpp	/^int main()$/;"	f	signature:()
+main	3.c	/^int main()$/;"	f
+main	4.c	/^int main()$/;"	f
+main	5.c	/^int main()$/;"	f
+main	7.cpp	/^int main()$/;"	f	signature:()
+main	8.cpp	/^int main()$/;"	f	signature:()
+mergeTwoListNode	17.cpp	/^ListNode * mergeTwoListNode(ListNode * list1,ListNode * list2)$/;"	f	signature:(ListNode * list1,ListNode * list2)
+next	13.cpp	/^	ListNode * next;$/;"	m	struct:ListNode	file:	access:public
+next	16.cpp	/^	ListNode * next;$/;"	m	struct:ListNode	file:	access:public
+next	17.cpp	/^	ListNode * next;$/;"	m	struct:ListNode	file:	access:public
+next	5.c	/^	ListNode * next;$/;"	m	struct:ListNode	file:	access:public
+power	11.cpp	/^double power(double base,int exp)$/;"	f	signature:(double base,int exp)
+powerUnsignedInt	11.cpp	/^double powerUnsignedInt(double base,int exp)$/;"	f	signature:(double base,int exp)
+powerUnsignedInt	11.cpp	/^double powerUnsignedInt(double base,int exp);$/;"	p	file:	signature:(double base,int exp)
+print	12.cpp	/^void print(char * number)$/;"	f	signature:(char * number)
+print1ToMaxN	12.cpp	/^int print1ToMaxN(int n)$/;"	f	signature:(int n)
+printLinkListReversingly	5.c	/^void printLinkListReversingly(ListNode * head)$/;"	f	signature:(ListNode * head)
+reorder	14.cpp	/^void reorder(int * array,int length)$/;"	f	signature:(int * array,int length)
+replaceBlank	4.c	/^void replaceBlank(char * array,int length)$/;"	f	signature:(char * array,int length)
+reverseLinkList	16.cpp	/^void reverseLinkList(ListNode * head)$/;"	f	signature:(ListNode * head)
+right	18.cpp	/^	BinaryTreeNode * right;$/;"	m	struct:BinaryTreeNode	file:	access:public
+stack1	7.cpp	/^		stack<T> stack1;$/;"	m	class:CQueue	file:	access:private
+stack2	7.cpp	/^		stack<T> stack2;$/;"	m	class:CQueue	file:	access:private
